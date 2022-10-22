@@ -1,0 +1,22 @@
+{
+  "name": "direct-to",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouravkhunger/direct-to.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gouravkhunger/direct-to/issues"
+  },
+  "homepage": "https://github.com/gouravkhunger/direct-to#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
