@@ -1,5 +1,5 @@
 {
-  "name": "direct-to",
+  "name": "directrix",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gouravkhunger/direct-to.git"
+    "url": "git+https://github.com/gouravkhunger/directrix.git"
   },
-  "author": "",
+  "author": "Gourav Khunger <gouravkhunger18@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gouravkhunger/direct-to/issues"
+    "url": "https://github.com/gouravkhunger/directrix/issues"
   },
-  "homepage": "https://github.com/gouravkhunger/direct-to#readme",
+  "homepage": "https://github.com/gouravkhunger/directrix#readme",
   "dependencies": {
     "express": "^4.18.2"
   }

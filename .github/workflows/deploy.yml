@@ -15,5 +15,5 @@ jobs:
       - uses: BogDAAAMN/deta-deploy-action@v1.0.1
         with:
           deta-access-token: ${{ secrets.DETA_TOKEN }}
-          deta-name: "direct-to"
-          deta-project: "direct-to"
+          deta-name: "directrix"
+          deta-project: "directrix"

@@ -1,18 +1,18 @@
-# direct-to
+# directrix
 
 An API to setup custom domain branded link shortener/redirector easily. It turns a simple json file like this:
 
 ```json
 {
   "gourav": "https://gouravkhunger.me",
-  "home": "https://github.com/gouravkhunger/direct-to"
+  "home": "https://github.com/gouravkhunger/directrix"
 }
 ```
 
 to a rebranded link redirection website. Try these out:
 
-- https://directto.gouravkhunger.me/home
-- https://directto.gouravkhunger.me/gourav
+- https://directrix.gouravkhunger.me/home
+- https://directrix.gouravkhunger.me/gourav
 
 ## When to use?
 
@@ -59,7 +59,7 @@ Save the changes by pressing "Commit changes":
 
 <img src="https://user-images.githubusercontent.com/46792249/197363808-187b0b6d-3831-4cd0-91d9-80ac0d46b90a.png" width="500px" />
 
-5. The [GitHub Action](https://github.com/gouravkhunger/direct-to/blob/main/.github/workflows/deploy.yml) will deploy the API automatically.
+5. The [GitHub Action](https://github.com/gouravkhunger/directrix/blob/main/.github/workflows/deploy.yml) will deploy the API automatically.
 
 Once it is completed, you will see a green checkmark next to the latest commit on the repo. Head over to Deta Dashboard, choose the micro you created and there you will be able to [setup a custom domain](https://docs.deta.sh/docs/micros/custom_domains) for your API.
 
