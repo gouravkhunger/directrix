@@ -1,24 +1,27 @@
 # directrix
 
+> [!CAUTION]
+> [Deta Space](https://deta.space) has shut down. This project is no longer maintained.
+
 An API to setup custom domain branded link shortener/redirector easily. It turns a simple json file like this:
 
 ```json
 {
-  "gourav": "https://gouravkhunger.me",
+  "gourav": "https://gourav.sh",
   "home": "https://github.com/gouravkhunger/directrix"
 }
 ```
 
 to a rebranded link redirection website. Try these out:
 
-- https://directrix.gouravkhunger.me/home
-- https://directrix.gouravkhunger.me/gourav
+- https://directrix.gourav.sh/home
+- https://directrix.gourav.sh/gourav
 
 ## When to use?
 
 Best for links that you want to rebrand under your own domain (for free). `go.example.com/xyz` and `link.example.com/product` are various ways links are generally rebranded.
 
-This API lets you create such links effortlessly. I personally use it to host redirects for links on my [portfolio site](https://gouravkhunger.me).
+This API lets you create such links effortlessly. I personally use it to host redirects for links on my [portfolio site](https://gourav.sh).
 
 ## Guided setup process
 

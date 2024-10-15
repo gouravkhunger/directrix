@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const links = require('./links.json');
 
@@ -23,5 +23,3 @@ app.listen(PORT, err => {
     if (err) console.log(err);
     console.log("Server listening on PORT:", PORT);
 });
-
-module.exports = app;
